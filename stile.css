@@ -1,0 +1,44 @@
+html, body{
+    height: 100%;
+    margin: 0 ;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height:  100%;
+}
+
+main{
+    flex: 1 0 auto;
+}
+
+.top-border{
+    border-top: solid 1px red;
+}
+
+form{
+display: flex;
+height: 100%;
+align-items: center;
+justify-content: space-around;
+margin-top: 15%;
+}
+
+label{
+    text-align: right;
+}
+
+input{
+    text-align: left;
+}
+
+div.field {
+    padding-bottom: 5px;
+  }
+  div.field label {
+    display: block;
+    float: left;
+    width: 70px;
+    height: 15px;
+  }
